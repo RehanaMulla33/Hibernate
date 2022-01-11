@@ -1,0 +1,26 @@
+package com.xworkz.Company;
+
+import com.xworkz.Company.dao.CompanyDAO;
+import com.xworkz.Company.dao.CompanyDAOImpl;
+import com.xworkz.Company.entity.CompanyEntity;
+
+public class CompanyRunner {
+
+	public static void main(String[] args) {
+		CompanyEntity companyEntity=new CompanyEntity(1, "xworkz", "IT", "MNC","www.abc");
+		@SuppressWarnings("unused")
+		CompanyEntity companyEntity3 = new CompanyEntity(3, "microsoft", "mnc", "software", "www.microsoft.com");
+		CompanyEntity companyEntity4 = new CompanyEntity(4, "flipkart", "e-commerece", "service", "www.flipkart.com");
+
+		
+		CompanyDAO dao=new CompanyDAOImpl();
+		
+		dao.create(companyEntity);
+		
+		dao.updateById("tata", 1);
+
+
+
+	}
+
+}

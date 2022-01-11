@@ -1,0 +1,16 @@
+package com.xworkz.Company;
+
+import com.xworkz.Company.dao.CompanyDAO;
+import com.xworkz.Company.entity.CompanyEntity;
+
+public class CompanyRunner {
+
+	public static void main(String[] args) {
+		CompanyEntity companyEntity=new CompanyEntity(1, "xworkz", "IT", "MNC","www.abc");
+		CompanyDAO dao=new CompanyDAOImpl();
+		dao.create(companyEntity);
+
+
+	}
+
+}

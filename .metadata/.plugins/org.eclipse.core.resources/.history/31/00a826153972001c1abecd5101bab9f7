@@ -1,0 +1,17 @@
+package com.xworkz.City;
+
+import com.xworkz.City.dao.CityDAO;
+import com.xworkz.City.dao.CityDAOImpl;
+import com.xworkz.City.entity.CityEntity;
+
+public class CityTester {
+
+	public static void main(String[] args) {
+		CityEntity cityentity=new CityEntity(1,"Hubli","80000","Commercial","Orange");
+		CityDAO dao=new CityDAOImpl();
+		dao.create(cityentity);
+		
+
+	}
+
+}

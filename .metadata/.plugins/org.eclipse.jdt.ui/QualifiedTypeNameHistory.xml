@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+    <fullyQualifiedTypeName name="com.xworkz.City.entity.CityEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.City.dao.CityDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.City.dao.CityDAOImpl"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+    <fullyQualifiedTypeName name="com.xworkz.State.entity.StateEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.State.dao.StateDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.State.dao.StateDAOImpl"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.xworkz.Country.entity.CountryEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.Country.dao.CountryDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.Country.dao.CountryDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.Patient.Entity.PatientEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.Patient.dao.PatientDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.Patient.dao.PatientDAO"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="com.xworkz.Company.entity.CompanyEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.Company.dao.CompanyDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.Company.dao.CompanyDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.TouristEntity"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+</qualifiedTypeNameHistroy>

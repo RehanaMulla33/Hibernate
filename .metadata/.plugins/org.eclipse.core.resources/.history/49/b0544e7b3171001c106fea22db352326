@@ -1,0 +1,5 @@
+package com.xworkz.Company.dao;
+
+public interface CompanyDAO {
+
+}
