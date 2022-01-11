@@ -91,7 +91,7 @@ public class StateDAOImpl implements StateDAO {
 			if (entity != null) {
 				session.delete(entity);
 				transaction.commit();
-				System.out.println("you are genius found that and deleted");
+				System.out.println("you found that record and deleted");
 				session.close();
 			} else {
 				System.out.println("not found that id");

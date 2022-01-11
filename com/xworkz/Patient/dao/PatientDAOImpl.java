@@ -50,10 +50,10 @@ public class PatientDAOImpl implements PatientDAO {
 	}
 
 	@Override
-	public void updateById(String p_Name, int p_age, int id) {
+	public void updateById(String name, int age, int id) {
 		System.out.println("invode by id and update");
 
-		System.out.println("passing arg " + p_Name + " " + p_age + " " + id);
+		System.out.println("passing arg " + name + " " + age + " " + id);
 
 		SessionFactory factory = new Configuration().configure().addAnnotatedClass(PatientEntity.class)
 				.buildSessionFactory();
@@ -64,8 +64,8 @@ public class PatientDAOImpl implements PatientDAO {
 			PatientEntity entity = session.get(PatientEntity.class, id);
 			if (entity != null) {
 
-				entity.setName(p_Name);
-				entity.setAge(p_age);
+				entity.setName(name);
+				entity.setAge(age);
 				session.update(entity);
 				tran.commit();
 				System.out.println("entity updated");
@@ -90,7 +90,7 @@ public class PatientDAOImpl implements PatientDAO {
 			if(entity!=null) {
 				session.delete(entity);
 				transaction.commit();
-				System.out.println("you are genius found that and deleted");
+				System.out.println("you found that record and deleted");
 				session.close();
 			}else {
 				System.out.println("not found that id");

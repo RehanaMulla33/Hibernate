@@ -19,6 +19,12 @@ public class CityEntity {
 	private String famousfor;
 	@Column(name = "city_coronaZone")
 	private String coronazone;
+	
+	
+
+	public CityEntity() {
+		
+	}
 
 	public CityEntity(int id, String name, String population, String famousfor, String coronazone) {
 		super();

@@ -29,7 +29,7 @@ public class CityDAOImpl implements CityDAO {
 
 	public CityEntity getById(int id) {
 		CityEntity cityentity = null;
-		System.out.println("invked getbyid");
+		System.out.println("inovked getbyid");
 		System.out.println("id passed as argument " + id);
 
 		SessionFactory sessionfactory = new Configuration().configure().addAnnotatedClass(CityEntity.class)
@@ -86,10 +86,10 @@ public class CityDAOImpl implements CityDAO {
 			if (entity != null) {
 				session.delete(entity);
 				transaction.commit();
-				System.out.println("you are genius found that and deleted");
+				System.out.println("you found record and deleted");
 				session.close();
 			} else {
-				System.out.println("not found that id");
+				System.out.println("not found se arching id");
 			}
 		}
 		factory.close();

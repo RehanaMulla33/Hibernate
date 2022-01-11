@@ -1,3 +1,4 @@
+
 package com.xworkz.Company.dao;
 
 import org.hibernate.Session;
@@ -26,6 +27,27 @@ public class CompanyDAOImpl implements CompanyDAO {
 
 		}
 		factory.close();
+	}
+	
+	@Override
+	public CompanyEntity getById(int id) {
+		CompanyEntity companyEntity = null;
+		System.out.println("invked getbyid");
+		System.out.println("id passed as argument " + id);
+
+		SessionFactory sessionfactory = new Configuration().configure().addAnnotatedClass(CompanyEntity.class)
+				.buildSessionFactory();
+		if (sessionfactory != null) {
+			Session session = sessionfactory.openSession();
+			companyEntity = session.get(CompanyEntity.class, id);
+			if (companyEntity != null) {
+				System.out.println("passing id is found");
+			} else {
+				System.out.println("id not found");
+			}
+		}
+		return companyEntity;
+
 	}
 
 	@Override

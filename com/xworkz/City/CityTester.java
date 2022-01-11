@@ -7,11 +7,11 @@ import com.xworkz.City.entity.CityEntity;
 public class CityTester {
 
 	public static void main(String[] args) {
-		CityEntity cityentity = new CityEntity(1, "Hubli", "80000", "Commercial", "Or");
-		CityEntity cityentity1 = new CityEntity(2, "Dharwad", "32564664", "DharwadPedha", "Li");
-		CityEntity cityentity2 = new CityEntity(3, "Davanger", "122654", "Dosa", "ba");
-		CityEntity cityentity3 = new CityEntity(4, "Mysore", "426564", "Palace ", "Pa");
-		CityEntity cityentity4 = new CityEntity(5, "Tumkuru", "526564", "HMT Watch", "Tu");
+		CityEntity cityentity = new CityEntity(15, "Hubli", "80000", "Commercial", "Orange");
+		CityEntity cityentity1 = new CityEntity(22, "Dharwad", "32564664", "DharwadPedha", "Green");
+		CityEntity cityentity2 = new CityEntity(32, "Davanger", "122654", "Dosa", "yellow");
+		CityEntity cityentity3 = new CityEntity(44, "Mysore", "426564", "Palace ", "White");
+		CityEntity cityentity4 = new CityEntity(57, "Tumkuru", "526564", "HMT Watch", "Orange");
 
 		CityDAO dao = new CityDAOImpl();
 
@@ -21,7 +21,13 @@ public class CityTester {
 		//dao.create(cityentity3);
 		//dao.create(cityentity4);
 		
-		dao.deleteById(4);
+		//dao.getById(2);
+		
+			//dao.updateById("Hubli", 20);
+
+
+		
+		dao.deleteById(22);
 
 
 	}

@@ -24,6 +24,13 @@ public class StateEntity {
 	@Column(name="state_capitalCity")
 	private String capitalCity;
 	
+	
+	
+	public StateEntity() {
+		
+		// TODO Auto-generated constructor stub
+	}
+
 	public StateEntity(int id, String name, int noOfDist, String capitalCity) {
 		super();
 		this.id = id;

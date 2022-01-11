@@ -1,16 +1,16 @@
 package com.xworkz.State;
 
 import com.xworkz.State.dao.StateDAO;
+
 import com.xworkz.State.dao.StateDAOImpl;
 import com.xworkz.State.entity.StateEntity;
 
 public class StaeRunner {
 
 	public static void main(String[] args) {
-		StateEntity stateEntity=new StateEntity(8,"Karnataka",28,"Bengaluru");
-		StateEntity stateEntity1=new StateEntity(9,"Goa",5,"Panaji");
-
-		StateEntity stateEntity2=new StateEntity(10,"Telangana",25,"Hyderabad");
+		StateEntity stateEntity=new StateEntity(18,"Uttar Pradesh",28,"Lucknow");
+		StateEntity stateEntity1=new StateEntity(19,"Punjab",5,"Bhatinda");
+		StateEntity stateEntity2=new StateEntity(20,"Tamil Nadu",25,"Chennai");
 
 		
 		StateDAO dao= new StateDAOImpl();
@@ -19,12 +19,12 @@ public class StaeRunner {
 		//dao.create(stateEntity1);
 		//dao.create(stateEntity2);
 		
-			//stateDAO.getbyNameAndid("Karnataka", 1);
+			//dao.getbyNameAndid("Karnataka", 8);
 
 		
-		stateEntity.updateById("Karnataka", "Mysore", 8);
+		dao.updateById("Karnataka", "Mysore", 8);
 		
-		stateEntity.deleteById(1);
+		//dao.deleteById(9);
 
 		
 

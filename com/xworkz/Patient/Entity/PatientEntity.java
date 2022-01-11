@@ -1,11 +1,18 @@
 package com.xworkz.Patient.Entity;
 
-import javax.persistence.*;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
 
 @Entity
-@Table(name = "Patient_details")
+@Table(name = "patient_details")
 
 public class PatientEntity {
+	@Id
 	@Column(name = "patient_id")
 	private int id;
 	@Column(name = "patient_name")
@@ -16,6 +23,13 @@ public class PatientEntity {
 	private String birthPlace;
 	@Column(name = "patient_corona")
 	private String corona;
+	
+	
+
+	public PatientEntity() {
+		
+		// TODO Auto-generated constructor stub
+	}
 
 	public PatientEntity(int id, String name, int age, String birthPlace, String corona) {
 		super();

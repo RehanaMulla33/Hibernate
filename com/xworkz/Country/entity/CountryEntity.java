@@ -1,9 +1,15 @@
-package com.xworkz.Country.entity;
+ package com.xworkz.Country.entity;
 
-	import javax.persistence.*;
+	import javax.persistence.Column;
+	import javax.persistence.Entity;
+	import javax.persistence.Id;
+	import javax.persistence.Table;
+
+	
 	@Entity
-	@Table(name="Country_details")
+	@Table(name="country_details")
 	public class CountryEntity {
+		@Id
 		@Column(name="country_id")
 		private int id;
 		@Column(name="country_name")
@@ -11,8 +17,13 @@ package com.xworkz.Country.entity;
 		@Column(name="country_continent")
 		private String continent;
 		@Column(name="country_population")
-		private long population;
-		public CountryEntity(int id, String name, String continent, long population) {
+		private String population;
+		
+		
+		public CountryEntity() {
+			
+		}
+		public CountryEntity(int id, String name, String continent, String population) {
 			super();
 			this.id = id;
 			this.name = name;
@@ -37,10 +48,10 @@ package com.xworkz.Country.entity;
 		public void setContinent(String continent) {
 			this.continent = continent;
 		}
-		public long getPopulation() {
+		public String getPopulation() {
 			return population;
 		}
-		public void setPopulation(long population) {
+		public void setPopulation(String population) {
 			this.population = population;
 		}
 		@Override

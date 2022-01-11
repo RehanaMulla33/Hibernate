@@ -18,6 +18,12 @@ public class CompanyEntity {
 	private String domain;
 	@Column(name = "comp_website")
 	private String website;
+	
+	
+
+	public CompanyEntity() {
+		
+	}
 
 	public CompanyEntity(int id, String name, String type, String domain, String website) {
 		super();
