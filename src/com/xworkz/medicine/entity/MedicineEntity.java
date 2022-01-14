@@ -33,7 +33,7 @@ public class MedicineEntity {
 		// TODO Auto-generated constructor stub
 	}
 
-	public MedicineEntity(String name, String expDate, int cost, float quantity, String color, String laboratories,
+	public MedicineEntity(String name, String expdate, int cost, float quantity, String color, String laboratories,
 			int batchNo) {
 		super();
 		this.name = name;
@@ -57,7 +57,7 @@ public class MedicineEntity {
 		return expdate;
 	}
 
-	public void setExpDate(Date expDate) {
+	public void setExpDate(String expDate) {
 		this.expdate = expdate;
 	}
 
@@ -103,7 +103,7 @@ public class MedicineEntity {
 
 	@Override
 	public String toString() {
-		return "MedicineEntity [name=" + name + ", expDate=" + expdate + ", cost=" + cost + ", quantity=" + quantity
+		return "MedicineEntity [name=" + name + ", expdate=" + expdate + ", cost=" + cost + ", quantity=" + quantity
 				+ ", color=" + color + ", laboratories=" + laboratories + ", batchNo=" + batchNo + "]";
 	}
 

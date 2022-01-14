@@ -15,9 +15,9 @@ import javax.persistence.Table;
 public class AirportEntity {
 	@Id
 	@Column(name = "airId")
-	private int airId;
-	@Column(name = "waitArea")
-	private int waitArea;
+	private String airId;
+	@Column(name = "Airport_Name")
+	private String airportName;
 	@Column(name = "deptArea")
 	private String departuretArea;
 	@Column(name = "environment")
@@ -34,32 +34,33 @@ public class AirportEntity {
 		// TODO Auto-generated constructor stub
 	}
 
-	public AirportEntity(int airId, int waitArea, String departuretArea, String terminalEnv, int noOfAircraftStand,
+	public AirportEntity(String airId, String airportName, String departuretArea, String terminalEnv, int noOfAircraftStand,
 			int ramp, int fireStation) {
 		super();
 		this.airId = airId;
-		this.waitArea = waitArea;
+		this.airportName = airportName;
 		this.departuretArea = departuretArea;
 		this.terminalEnv = terminalEnv;
 		this.noOfAircraftStand = noOfAircraftStand;
 		this.ramp = ramp;
 		this.fireStation = fireStation;
 	}
-
-	public int getAvailSeats() {
+ 
+	
+	public String getAirId() {
 		return airId;
 	}
 
-	public void setAvailSeats(int availSeats) {
-		this.airId = availSeats;
+	public void setAirId(String airId) {
+		this.airId = airId;
 	}
 
-	public int getWaitArea() {
-		return waitArea;
+	public String getAirportName() {
+		return airportName;
 	}
 
-	public void setWaitArea(int waitArea) {
-		this.waitArea = waitArea;
+	public void setAirportName(String airportName) {
+		this.airportName = airportName;
 	}
 
 	public String getDeparturetArea() {
@@ -104,7 +105,7 @@ public class AirportEntity {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(airId, departuretArea, fireStation, noOfAircraftStand, ramp, terminalEnv, waitArea);
+		return Objects.hash(airId, departuretArea, fireStation, noOfAircraftStand, ramp, terminalEnv, airportName);
 	}
 
 	@Override
@@ -118,12 +119,12 @@ public class AirportEntity {
 		AirportEntity other = (AirportEntity) obj;
 		return airId == other.airId && Objects.equals(departuretArea, other.departuretArea)
 				&& fireStation == other.fireStation && noOfAircraftStand == other.noOfAircraftStand
-				&& ramp == other.ramp && Objects.equals(terminalEnv, other.terminalEnv) && waitArea == other.waitArea;
+				&& ramp == other.ramp && Objects.equals(terminalEnv, other.terminalEnv) && airportName == other.airportName;
 	}
 
 	@Override
 	public String toString() {
-		return "AirportEntity [airId=" + airId + ", waitArea=" + waitArea + ", departuretArea="
+		return "AirportEntity [airId=" + airId + ", waitArea=" + airportName + ", departuretArea="
 				+ departuretArea + ", terminalEnv=" + terminalEnv + ", noOfAircraftStand=" + noOfAircraftStand
 				+ ", ramp=" + ramp + ", fireStation=" + fireStation + "]";
 	}

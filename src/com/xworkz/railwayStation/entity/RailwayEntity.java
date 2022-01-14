@@ -14,7 +14,7 @@ public class RailwayEntity {
 	private String name;
 	@Column(name = "RailTcktCounters")
 	private int noOfTicketCounters;
-	@Column(name = "airId")
+	@Column(name = "waitingRoom")
 	private int waitingRoom;
 	@Column(name = "platform")
 	private int noOfPlatforms;
