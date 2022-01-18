@@ -1,5 +1,0 @@
-package com.xworkz.Patient.dao;
-
-public class PatientDAOImpl {
-
-}

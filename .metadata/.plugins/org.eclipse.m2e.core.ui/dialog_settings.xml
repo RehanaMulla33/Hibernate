@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
-			<item value="tourist_project"/>
 			<item value="com.xworkz"/>
+			<item value="sana_database"/>
+			<item value="tourist_project"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="sana_database"/>
+			<item value="rehana"/>
 			<item value="tourist_project"/>
 			<item value="data_company"/>
 		</list>
