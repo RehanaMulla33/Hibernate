@@ -1,122 +1,91 @@
 package com.xworkz.website.dao;
 
-import javax.persistence.EntityManager;
+import java.util.List;
 
+import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceException;
 import javax.persistence.Query;
+
 import com.xworkz.tour.util.EMFUtil;
 import com.xworkz.website.entity.WebsiteEntity;
 
 public class WebsiteDAOImpl implements WebsiteDAO {
 
-
 	@Override
-	public void put(WebsiteEntity entity) {
+	public void save(List<WebsiteEntity> webSiteEntity) {
+		EntityManagerFactory entityManagerFactory = EMFUtil.getEntityManagerFactory();
 
-		EntityManagerFactory emf = EMFUtil.getEntityManagerFactory();
-		EntityManager manager = emf.createEntityManager();
-		EntityTransaction tx = manager.getTransaction();
-		tx.begin();
-		manager.persist(entity);
-		tx.commit();
-
-	}
-
-	@Override
-	public WebsiteEntity getByNameGmail() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
+		EntityManager manager = entityManagerFactory.createEntityManager();
+		EntityTransaction transaction = manager.getTransaction();
+		transaction.begin();
 		try {
-		Query query = manager.createNamedQuery("getByNameGmail");
-		Object obj = query.getSingleResult();
-		WebsiteEntity entity = (WebsiteEntity)obj;
-
+			int flushcount = 0;
+			for (WebsiteEntity railwayEntity : webSiteEntity) {
+				manager.persist(railwayEntity);
+				if (flushcount >= 10) { // 1>>2>>3
+					manager.flush();
+					System.out.println("flushing the data");
+					flushcount = 0;
+					manager.clear();
+					System.out.println("clear the data");
+				}
+				flushcount++;
+			}
+			transaction.commit();
 		} catch (PersistenceException e) {
-
-			e.printStackTrace();
-
+			transaction.rollback();
 		}
 
-		return null;
-	}
-
-	@Override
-	public WebsiteEntity getByLikeUrla() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
-		try {
-			Query query = manager.createNamedQuery("getByLikeUrla");
-			Object obj=query.getSingleResult();
-			WebsiteEntity entity = (WebsiteEntity)obj;
-			
-			
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
-	public WebsiteEntity getByMinSince() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
-		try {
-			Query query = manager.createNamedQuery("getByMinSince");
-			Object obj=query.getSingleResult();
-			WebsiteEntity entity = (WebsiteEntity)obj;
-			
-			
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
-	public WebsiteEntity getByMaxSince() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
-		try {
-			Query query = manager.createNamedQuery("getByMaxSince");
-			Object obj=query.getSingleResult();
-			WebsiteEntity entity = (WebsiteEntity)obj;
-			
-			
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
-	public WebsiteEntity getBySecondMinSince() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
-		try {
-			Query query = manager.createNamedQuery("getBySecondMinSince");
-			Object obj=query.getSingleResult();
-			WebsiteEntity entity = (WebsiteEntity)obj;
-			
-			
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
 		
+	}
+
+	@Override
+	public WebsiteEntity getByNameGoogle() {
+		EntityManager entityManager = EMFUtil.getEntityManagerFactory().createEntityManager();
+		try {
+			Query query = entityManager.createNamedQuery("getByNameGoogle");
+			Object result = query.getSingleResult();
+			WebsiteEntity entity = (WebsiteEntity) result;
+			System.out.println("result fetched for name");
+
+			return entity;
+
+		} catch (PersistenceException e) {
+			e.printStackTrace();
+		}
+		return null;
+
+	
+	}
+
+	@Override
+	public WebsiteEntity getByLikeUrl() {
 		return null;
 	}
 
 	@Override
-	public WebsiteEntity getBySecondMaxSince() {
-		EntityManager manager = EMFUtil.getEntityManagerFactory().createEntityManager();
-		try {
-			Query query = manager.createNamedQuery("getBySecondMaxSince");
-			Object obj=query.getSingleResult();
-			WebsiteEntity entity = (WebsiteEntity)obj;
-			
-			
-		} catch (PersistenceException e) {
-			e.printStackTrace();
-		}
-		
+	public WebsiteEntity getMaxBySince() {
 		return null;
 	}
 
+	@Override
+	public WebsiteEntity getMinBySince() {
+		return null;
+	}
 
+	@Override
+	public WebsiteEntity getSecondMinSince() {
+		return null;
+	}
+
+	@Override
+	public WebsiteEntity getSecondMaxBySince() {
+		return null;
+	}
 }
+
+
+
+	
