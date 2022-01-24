@@ -13,7 +13,7 @@ public class EMFUtil {
 	
 	static {
 		System.out.println("Static block invoked");
-		entityManagerFactory=Persistence.createEntityManagerFactory("com.xworkz.tour");
+		entityManagerFactory=Persistence.createEntityManagerFactory("com.xworkz");
 		System.out.println("Initialized values to db");
 	}
 

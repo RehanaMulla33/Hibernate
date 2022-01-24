@@ -1,15 +1,23 @@
 package com.xworkz.website.dao;
 
+import java.util.List;
+
 import com.xworkz.website.entity.WebsiteEntity;
 
 public interface WebsiteDAO {
-	void put(WebsiteEntity entity);
-	WebsiteEntity getByNameGmail();
-	WebsiteEntity getByLikeUrla();
-	WebsiteEntity getByMinSince();
-	WebsiteEntity getByMaxSince();
-	WebsiteEntity getBySecondMinSince();
-	WebsiteEntity getBySecondMaxSince();
-	
+
+	void save(List<WebsiteEntity> webSiteEntity);
+
+	WebsiteEntity getByNameGoogle();
+
+	WebsiteEntity getByLikeUrl();
+
+	WebsiteEntity getMaxBySince();
+
+	WebsiteEntity getMinBySince();
+
+	WebsiteEntity getSecondMinSince();
+
+	WebsiteEntity getSecondMaxBySince();
 
 }
