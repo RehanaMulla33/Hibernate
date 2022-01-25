@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.tour.entity.TouristEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAOImpl"/>
-    <fullyQualifiedTypeName name="com.xworkz.railwayStation.entity.RailwayEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.railwayStation.dao.RailwayDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.railwayStation.dao.RailwayDAOImpl"/>
-    <fullyQualifiedTypeName name="com.xworkz.sugarCane.dao.SugarCaneDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.sugarCane.dao.SugarCaneDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.sugarCane.entity.SugarCaneEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.medicine.entity.MedicineEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.medicine.dao.MedicineDAO"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="com.xworkz.SingletonEMFUtil"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
-    <fullyQualifiedTypeName name="com.xworkz.autoservices.entity.AutoservicesEntity"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.xworkz.autoservices.dao.AutoservicesDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.entity.AutoservicesEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.autoservices.dao.AutoservicesDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidfName"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidPhoneno"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidVType"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidLocation"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidCreatedAt"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
 </qualifiedTypeNameHistroy>

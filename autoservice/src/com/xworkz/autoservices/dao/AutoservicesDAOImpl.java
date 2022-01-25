@@ -1,4 +1,4 @@
- package com.xworkz.autoservices.dao;
+package com.xworkz.autoservices.dao;
 
 import java.util.List;
 
@@ -38,8 +38,26 @@ public class AutoservicesDAOImpl implements AutoservicesDAO {
 			transaction.rollback();
 		}
 
-		
 		return null;
+	}
+
+	@Override
+	public void save(AutoservicesEntity autoEntity) {
+		EntityManager manager = SingletonEMFUtil.getEntityManagerFactory().createEntityManager();
+		EntityTransaction transaction = manager.getTransaction();
+
+		try {
+			transaction.begin();
+			manager.persist(autoEntity);
+
+		} catch (PersistenceException e) {
+			e.printStackTrace();
+
+		} finally {
+			manager.getTransaction();
+			transaction.commit();
+		}
+
 	}
 
 }
