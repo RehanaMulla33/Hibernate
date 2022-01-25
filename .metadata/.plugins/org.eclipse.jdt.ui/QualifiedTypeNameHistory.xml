@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.sugarCane.entity.SugarCaneEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.medicine.entity.MedicineEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.medicine.dao.MedicineDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.medicine.dao.MedicineDAOImpl"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.xworkz.silkManfacturer.entity.SilkEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.silkManfacturer.dao.SilkDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.silkManfacturer.dao.SilkDAOImpl"/>
@@ -45,9 +38,6 @@
     <fullyQualifiedTypeName name="com.xworkz.auto_services.dao.AutoserviceDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.auto_services.dao.AutoserviceDAOImpl"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
-    <fullyQualifiedTypeName name="com.xworkz.SingletonEMFUtil"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.xworkz.autoservices.dao.AutoservicesDAO"/>
@@ -60,4 +50,14 @@
     <fullyQualifiedTypeName name="com.xworkz.autoservices.exception.InvalidCreatedAt"/>
     <fullyQualifiedTypeName name="lombok.NonNull"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.service.ValidateAutoservice"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.service.ValidateAutoserviceImpl"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.xworkz.SingletonEMFUtil"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.entity.AutoServicesEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.dao.AutoServicesDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.dao.AutoServicesDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.service.ValidateAutoService"/>
+    <fullyQualifiedTypeName name="com.xworkz.autoservices.service.ValidateAutoServiceImpl"/>
 </qualifiedTypeNameHistroy>

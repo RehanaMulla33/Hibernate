@@ -2,26 +2,28 @@ package com.xworkz.autoservices.dao;
 
 import java.util.List;
 
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceException;
 
 import com.xworkz.SingletonEMFUtil;
-import com.xworkz.autoservices.entity.AutoservicesEntity;
+import com.xworkz.autoservices.entity.AutoServicesEntity;
 
-public class AutoservicesDAOImpl implements AutoservicesDAO {
+
+public class AutoServicesDAOImpl implements AutoServicesDAO {
 
 	@Override
-	public AutoservicesEntity saveAll(List<AutoservicesEntity> entities) {
+	public AutoServicesEntity saveAll(List<AutoServicesEntity> entities) {
 		EntityManager manager = SingletonEMFUtil.getEntityManagerFactory().createEntityManager();
 		EntityTransaction transaction = manager.getTransaction();
 		transaction.begin();
 		try {
 			int flushcount = 0;
-			for (AutoservicesEntity autoserviceEntity : entities) {
+			for (AutoServicesEntity autoserviceEntity : entities) {
 				manager.persist(autoserviceEntity);
 
-				if (flushcount == 10) {
+				if (flushcount == 5) {
 					manager.flush();
 					System.out.println("flushingdata");
 					flushcount = 0;
@@ -42,20 +44,21 @@ public class AutoservicesDAOImpl implements AutoservicesDAO {
 	}
 
 	@Override
-	public void save(AutoservicesEntity autoEntity) {
+	public void save(AutoServicesEntity autoEntity) {
 		EntityManager manager = SingletonEMFUtil.getEntityManagerFactory().createEntityManager();
 		EntityTransaction transaction = manager.getTransaction();
-
+	
 		try {
 			transaction.begin();
 			manager.persist(autoEntity);
+			transaction.commit();
+
 
 		} catch (PersistenceException e) {
 			e.printStackTrace();
 
 		} finally {
-			manager.getTransaction();
-			transaction.commit();
+			
 		}
 
 	}

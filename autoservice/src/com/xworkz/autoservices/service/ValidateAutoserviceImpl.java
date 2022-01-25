@@ -1,94 +1,84 @@
 package com.xworkz.autoservices.service;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
+import com.xworkz.autoservices.dao.AutoServicesDAO;
+import com.xworkz.autoservices.dao.AutoServicesDAOImpl;
+import com.xworkz.autoservices.entity.AutoServicesEntity;
 
-import com.xworkz.SingletonEMFUtil;
-import com.xworkz.autoservices.dao.AutoservicesDAO;
-import com.xworkz.autoservices.dao.AutoservicesDAOImpl;
-import com.xworkz.autoservices.entity.AutoservicesEntity;
-import com.xworkz.autoservices.exception.InvalidCreateBy;
-import com.xworkz.autoservices.exception.InvalidCreatedAt;
-import com.xworkz.autoservices.exception.InvalidEmail;
-import com.xworkz.autoservices.exception.InvalidLocation;
-import com.xworkz.autoservices.exception.InvalidPhoneno;
-import com.xworkz.autoservices.exception.InvalidVType;
-import com.xworkz.autoservices.exception.InvalidfName;
-
-public class ValidateAutoserviceImpl implements ValidateAutoservice {
-
-	private AutoservicesDAO dao;
-
-	boolean validate = true;
-	AutoservicesDAOImpl auto1 = new AutoservicesDAOImpl();
-	private Object Autoservice;
+public class ValidateAutoServiceImpl implements ValidateAutoService {
+	AutoServicesDAO dao = new AutoServicesDAOImpl();
+	boolean valid = true;
 
 	@Override
-	public boolean validateAndSave(AutoservicesEntity entity) {
-		EntityManager manager=SingletonEMFUtil.getEntityManagerFactory().createEntityManager();
-		EntityTransaction tx=manager.getTransaction();
-		tx.begin();
-		
+	public boolean validateAndSave(AutoServicesEntity entity) {
+try {
 
-		try {
-			if (entity.getFName() == null && entity.getFName().length()<3 && entity.getFName().length() > 25) {
-				this.validate = false;
-				throw new InvalidfName();
-			}
+		if (entity.getFName() != null && entity.getFName().length() > 3 && entity.getFName().length()< 20) {
+		} else {
+			System.out.println("Invalid Name");
+			return false;
+		}
+		if (entity.getEmail() != null && entity.getEmail().length() < 20 && entity.getEmail().endsWith(".com")) {
 
-			if (entity.getEmail() == null && entity.getEmail().length() < 8
-					&& entity.getEmail().endsWith("@gmail.com")) {
-				this.validate = false;
-				throw new InvalidEmail("Invalid Email");
-			}
-			if (entity.getPhoneNo() == null && entity.getPhoneNo().length() < 12
-					&& entity.getPhoneNo().startsWith("91")) {
-				this.validate = false;
-				throw new InvalidPhoneno("Invalid phone");
-			}
-			if (entity.getVType() == null && entity.getVType().length() < 2 && entity.getVType().length() > 6) {
-				this.validate = false;
-				throw new InvalidVType("Invalid Type");
-			}
-			if (entity.getLocation() == null && entity.getLocation().length() < 2
-					&& entity.getLocation().length() > 10) {
-				this.validate = false;
-				throw new InvalidLocation("Invalid Location");
-			}
-			if (entity.getCreated_By()==null && entity.getCreated_By().length()<3 && entity.getCreated_By().length()<25) {
-				this.validate=false;
-				throw new InvalidCreateBy("Invalid credit at");
-			}
-			
+		} else {
+			System.out.println("Invalid Email");
+			return false;
+		}
+		if (entity.getPhoneNo() != null && entity.getPhoneNo().startsWith("91") && entity.getPhoneNo().length()<= 12) {
 
-		} catch (InvalidfName e) {
-			System.out.println(e);
+		} else {
+			System.out.println("Invalid Phone No");
+			return false;
 		}
-		catch (InvalidEmail e) {
-			System.out.println(e);
+		if (entity.getVType() != null && entity.getVType().length() > 5) {
+		} else {
+			System.out.println("Invalid Vehile");
+			return false;
 		}
-		catch (InvalidPhoneno e) {
-			System.out.println(e);
+		if (entity.getLocation() != null && entity.getLocation().length() > 5) {
+		} else {
+			System.out.println("Invalid Location");
+			return false;
 		}
-		catch (InvalidVType e) {
-			System.out.println(e);
-		}
-		catch (InvalidLocation e) {
-			System.out.println(e);
-		}
-		catch (InvalidCreatedAt e) {
-			System.out.println(e);
-		}
-		finally {
-			if(manager!=null) {
-				manager.close();
-			}
-		}
-		if(validate) {
-			auto1.save(entity);
-			
-		}
-		return validate;
+		if (entity.getPassword() != null && entity.getPassword().length() < 15 && entity.getPassword().contains("*")) {
 
-	}
+		} else {
+			System.out.println("Invalid Password");
+			return false;
+		}
+		if (entity.getCreated_By() != null && entity.getCreated_By().length() > 3
+				&& entity.getCreated_By().length() < 20) {
+
+		} else {
+			System.out.println("Invalid CreatedBy");
+			return false;
+		}
+		if (entity.getCreated_At() != null) {
+
+		} else {
+			System.out.println("Invalid CreatedAt");
+			return false;
+		}
+		if (entity.getUpdated_By() != null && entity.getUpdated_By().length() > 3
+				&& entity.getUpdated_By().length() < 20) {
+
+		} else {
+			System.out.println("Invalid UpdatedBy");
+			return false;
+		}
+		if (entity.getUpdated_At() != null) {
+
+		} else {
+			System.out.println("Invalid UpdatedAt");
+			return false;
+		}
+
+		if (valid)
+			dao.save(entity);
+		return true;
+} catch (Exception e) {
+
+}	
+	
+	return false;
+}
 }

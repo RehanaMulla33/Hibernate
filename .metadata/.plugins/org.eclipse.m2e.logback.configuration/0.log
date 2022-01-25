@@ -6325,3 +6325,527 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.xworkz:jp
 2022-01-25 11:07:56,346 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
 2022-01-25 11:07:56,352 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-01-25 11:07:56,447 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 11:30:13,278 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier  to /jpa-EMFUtil/target/classes
+2022-01-25 11:30:14,247 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:30:14,248 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 11:30:14,251 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:30:14,253 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 11:39:29,266 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:39:29,296 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 11:39:29,299 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:39:29,332 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 11:39:32,331 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 11:39:33,646 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 11:39:33,737 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 11:39:33,824 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 11:45:18,085 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:45:18,086 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 11:45:18,090 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 11:45:18,378 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 11:45:26,075 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 11:45:26,143 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 11:45:26,215 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 12:12:37,676 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:12:38,952 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:12:39,013 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:12:39,014 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 12:35:10,480 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:35:11,599 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:35:11,618 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:35:11,618 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 12:39:26,563 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:39:26,564 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:39:26,566 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:39:26,786 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 12:52:06,391 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:52:06,392 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:52:06,445 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:52:06,796 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 12:58:26,945 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:58:26,946 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:58:27,365 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:58:27,367 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 12:58:57,663 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:58:57,664 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 12:58:57,667 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 12:58:57,725 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:00:23,044 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:00:23,045 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:00:23,793 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:00:23,885 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:01:17,612 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:01:17,613 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:01:17,614 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:01:17,651 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:16:59,190 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier  to /jpa-EMFUtil/target/classes
+2022-01-25 13:17:06,865 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:06,866 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:17:06,868 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:06,954 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:17:19,872 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:19,874 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:17:19,879 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:19,880 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:17:34,981 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:34,983 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:17:34,987 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:35,066 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:17:45,586 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:45,588 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:17:45,590 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:17:45,622 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:18:13,768 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:18:13,770 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:18:13,775 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:18:13,879 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:19:08,136 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:19:08,137 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:19:08,139 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:19:08,167 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:19:25,022 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:19:25,023 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:19:25,025 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:19:25,246 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:20:01,580 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:20:01,581 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:20:01,586 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:20:01,587 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:20:22,308 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:20:22,309 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:20:22,310 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:20:22,311 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:22:44,466 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:22:44,467 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:22:44,468 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:22:44,534 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:22:59,238 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:22:59,239 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:22:59,242 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:22:59,308 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:23:54,924 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:23:54,926 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:23:54,927 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:23:54,983 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:27:07,581 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:27:07,582 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:27:07,583 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:27:07,847 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:27:27,226 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:27:27,227 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:27:27,229 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:27:27,231 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:28:00,513 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:00,514 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:28:00,516 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:00,604 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:28:34,648 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:34,649 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:28:34,652 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:35,327 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:28:58,646 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:58,646 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:28:58,648 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:28:58,806 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:29:26,745 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:26,746 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:29:26,747 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:26,917 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:29:45,513 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:45,515 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:29:45,516 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:45,562 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:29:50,527 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:50,529 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:29:50,531 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:29:50,532 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:30:25,010 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:30:25,011 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:30:25,015 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:30:25,015 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:33:00,620 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:33:00,620 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:33:00,622 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:33:00,873 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:38:46,696 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:38:46,724 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:38:46,725 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:38:46,826 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:40:45,213 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:40:45,214 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:40:45,216 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:40:45,291 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:42:12,119 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:42:12,120 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:42:12,121 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:42:12,122 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:42:26,262 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:42:26,263 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:42:26,264 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:42:26,265 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:42:29,782 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 13:42:32,087 [Worker-1: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:42:32,156 [Worker-1: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:42:32,233 [Worker-1: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:46:29,585 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:46:29,600 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:46:29,600 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:46:30,747 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:46:31,684 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:46:31,798 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:46:31,888 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:47:08,576 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:47:08,576 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:47:08,577 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:47:08,632 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:47:12,270 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:47:12,328 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:47:12,367 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:50:30,647 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:50:30,648 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:50:30,649 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:50:30,669 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:50:35,622 [Worker-14: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:50:35,625 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:50:35,627 [Worker-14: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:50:35,628 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 13:50:35,688 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:50:35,757 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:50:35,828 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 13:59:49,636 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:59:49,637 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 13:59:49,638 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 13:59:49,639 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:00:15,480 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:00:15,481 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:00:15,486 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:00:15,487 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:00:18,773 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:00:18,838 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:00:18,883 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:00:32,056 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:00:32,057 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:00:32,058 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:00:32,059 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:00:34,116 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:00:34,173 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:00:34,215 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:01:24,810 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:01:24,861 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:01:24,907 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:23:17,460 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:23:17,474 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:23:17,475 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:23:17,543 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:23:25,614 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:23:25,615 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:23:25,616 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:23:25,616 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:24:44,815 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:24:44,816 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:24:44,817 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:24:44,878 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:24:48,475 [Worker-20: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:24:48,476 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:24:48,477 [Worker-20: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:24:48,478 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:24:48,552 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:24:48,603 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:24:48,645 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:25:15,572 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:25:15,572 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:25:15,573 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:25:15,663 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:25:58,250 [Worker-24: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:25:58,295 [Worker-24: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:25:58,335 [Worker-24: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:28:07,213 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:28:07,252 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:28:07,297 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:29:58,017 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:29:58,019 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:29:58,023 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:29:58,064 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:31:16,727 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:31:16,729 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:31:16,731 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:31:16,732 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:31:20,438 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:31:20,439 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:31:20,440 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:31:20,441 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:31:26,918 [Worker-15: Launching ValidAutoServicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:31:26,993 [Worker-15: Launching ValidAutoServicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:31:27,072 [Worker-15: Launching ValidAutoServicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:32:20,889 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:32:20,889 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:32:20,890 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:32:20,891 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:36:55,836 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:36:55,837 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:36:55,839 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:36:55,841 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:37:05,655 [Worker-32: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:37:05,656 [Worker-32: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:37:05,658 [Worker-32: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:37:05,659 [Worker-32: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:37:05,717 [Worker-32: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:37:05,762 [Worker-32: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:37:05,799 [Worker-32: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:37:46,667 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:37:46,721 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:37:46,760 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:17,469 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:44:17,471 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:44:17,471 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:44:17,525 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:44:20,872 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:20,920 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:20,955 [Worker-33: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:40,830 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:44:40,831 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:44:40,832 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:44:40,833 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:44:55,135 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:55,181 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:44:55,251 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:46:21,578 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:46:21,579 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:46:21,580 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:46:21,630 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:46:26,623 [Worker-34: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:46:26,686 [Worker-34: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:46:26,731 [Worker-34: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:49:59,661 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:49:59,662 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:49:59,663 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:49:59,691 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:51:51,934 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:51:51,999 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:51:52,043 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:13,586 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:52:13,586 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:52:13,587 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:52:13,653 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:52:15,715 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:15,763 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:15,800 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:35,782 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:35,827 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:35,865 [Worker-41: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:43,973 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:52:43,973 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:52:43,974 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:52:44,014 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:52:46,279 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:46,323 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:52:46,361 [Worker-35: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:53:15,786 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:53:15,787 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:53:15,787 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:53:15,788 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 14:53:21,132 [Worker-39: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:53:21,182 [Worker-39: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:53:21,222 [Worker-39: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 14:54:06,841 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:54:06,842 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 14:54:06,843 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 14:54:06,843 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:41:29,161 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-25 15:42:32,524 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier  to /jpa-EMFUtil/target/classes
+2022-01-25 15:42:36,516 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:42:36,517 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:42:36,521 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:42:36,568 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:42:37,022 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:42:37,109 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:42:37,207 [Worker-3: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:42:54,595 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:42:54,597 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:42:54,598 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:42:54,735 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:43:00,720 [Worker-6: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:43:00,837 [Worker-6: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:43:00,942 [Worker-6: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:43:14,736 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:43:14,737 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:43:14,739 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:43:14,789 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:43:19,962 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:43:19,962 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:43:19,964 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:43:19,965 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:43:23,715 [Worker-9: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:43:23,828 [Worker-9: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:43:23,934 [Worker-9: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:47:08,175 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:47:08,176 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:47:08,177 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:47:08,178 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:47:10,461 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:47:10,514 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:47:10,556 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:49:00,294 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:49:00,328 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:49:00,330 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:49:00,425 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:49:00,684 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:49:00,754 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:49:00,822 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:49:59,732 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:49:59,733 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:49:59,734 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:49:59,789 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:50:01,813 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:50:01,882 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:50:01,937 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:02,185 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:02,186 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:51:02,189 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:02,250 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:51:04,808 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:04,862 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:04,917 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:29,366 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:29,367 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:51:29,369 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:29,370 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:51:32,045 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:32,105 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:32,173 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:41,347 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:41,348 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:51:41,350 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:41,351 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:51:44,188 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:44,240 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:44,299 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:54,760 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:54,762 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:51:54,764 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:51:54,766 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:51:57,402 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:57,453 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:51:57,495 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:27,751 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:52:27,752 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:52:27,753 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:52:27,754 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:52:30,948 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:30,999 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:31,045 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:38,672 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:52:38,673 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:52:38,674 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:52:38,675 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:52:41,326 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:41,381 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:52:41,424 [Worker-15: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:40,254 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:53:40,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:53:40,256 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:53:40,312 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:53:42,703 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:42,754 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:42,792 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:53,965 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:53:53,966 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:53:53,967 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:53:53,968 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:53:56,522 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:56,585 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:53:56,629 [Worker-13: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:22,373 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:54:22,374 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:54:22,381 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:54:22,382 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:54:24,577 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:24,620 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:24,671 [Worker-14: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:41,321 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:54:41,322 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:54:41,323 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:54:41,325 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:54:43,698 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:43,752 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:54:43,798 [Worker-17: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:56:57,017 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:56:57,018 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:56:57,020 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:56:57,020 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:57:11,629 [Worker-12: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:57:11,630 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:57:11,632 [Worker-12: Launching AutoservicesScanner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:57:11,633 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:57:11,722 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:57:11,787 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:57:11,855 [Worker-12: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:57:21,938 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:57:21,939 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:57:21,940 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:57:21,941 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:57:24,187 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:57:24,260 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:57:24,300 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:00,985 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:00,986 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:58:00,987 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:00,988 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:58:09,317 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:09,319 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:58:09,321 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:09,322 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:58:12,136 [Worker-19: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:12,194 [Worker-19: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:12,243 [Worker-19: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:19,357 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:19,358 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:58:19,360 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:19,361 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:58:22,967 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:23,022 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:23,076 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:36,444 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:36,445 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:58:36,446 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:58:36,512 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:58:39,055 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:39,114 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:58:39,169 [Worker-18: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:59:23,408 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:59:23,409 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 15:59:23,411 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 15:59:23,411 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 15:59:26,057 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:59:26,118 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 15:59:26,157 [Worker-20: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 16:01:08,527 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:01:08,618 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 16:01:08,620 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:01:08,621 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 16:01:10,235 [Worker-22: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 16:01:10,289 [Worker-22: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 16:01:10,346 [Worker-22: Launching AutoservicesScanner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier null to /jpa-EMFUtil/target/classes
+2022-01-25 16:01:49,776 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:01:49,778 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 16:01:49,780 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:01:49,781 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 16:37:13,389 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 16:38:01,928 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier  to /jpa-EMFUtil/target/classes
+2022-01-25 16:38:03,704 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:38:03,705 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 16:38:03,708 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 16:38:03,759 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 21:11:24,208 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 21:12:13,281 [Worker-3: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jpa-EMFUtil: com.xworkz:jpa-EMFUtil:0.0.1-SNAPSHOT with classifier  to /jpa-EMFUtil/target/classes
+2022-01-25 21:12:19,386 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:12:19,387 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 21:12:19,389 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:12:19,447 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 21:14:01,785 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:14:01,786 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 21:14:01,788 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:14:01,840 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources
+2022-01-25 21:15:53,294 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:15:53,295 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\main\resources
+2022-01-25 21:15:53,301 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-25 21:15:53,305 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Advanced Java\autoservice\src\test\resources

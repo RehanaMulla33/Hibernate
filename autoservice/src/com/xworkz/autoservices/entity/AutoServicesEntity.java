@@ -24,7 +24,7 @@ import lombok.ToString;
 @Entity
 @Table(name = "autoservice")
 
-public class AutoservicesEntity {
+public class AutoServicesEntity {
 
 	@Id
 	@Column(name = "a_id")
@@ -54,7 +54,7 @@ public class AutoservicesEntity {
 	@Column(name = "a_updatedAt")
 	private LocalDateTime updated_At;
 
-	public AutoservicesEntity(String fName, String lName, String email, String phoneNo, String vType, String location,
+	public AutoServicesEntity(String fName, String lName, String email, String phoneNo, String vType, String location,
 			String password, String created_By, LocalDateTime created_At, String updated_By, LocalDateTime updated_At) {
 		super();
 		this.fName = fName;
