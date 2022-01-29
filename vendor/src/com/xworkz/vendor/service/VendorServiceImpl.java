@@ -1,13 +1,15 @@
 package com.xworkz.vendor.service;
 
+import org.hibernate.internal.build.AllowSysOut;
+
 import com.xworkz.vendor.dao.VendorDAO;
 import com.xworkz.vendor.entity.VendorEntity;
 
 public class VendorServiceImpl implements VendorService {
 	private VendorDAO dao;
 
-	public VendorServiceImpl(VendorDAO dao) {
-		this.dao = dao;
+	public VendorServiceImpl(VendorDAO vdao) {
+		this.dao = vdao;
 
 	}
 
@@ -40,7 +42,9 @@ public class VendorServiceImpl implements VendorService {
 			valid = false;
 			return valid;
 		}
-		if (entity.getPassword() != null) {
+		if (entity.getPassword() != null && !(entity.getPassword().isEmpty()) && entity.getPassword().length() >= 8
+				&& entity.getPassword().length() >= 25 && (entity.getPassword().contains("*"))
+				|| entity.getPassword().contains("@") || entity.getPassword().contains("$")) {
 			valid = true;
 		} else {
 			System.out.println("Invalid password");
@@ -74,6 +78,64 @@ public class VendorServiceImpl implements VendorService {
 			dao.save(entity);
 
 		return false;
+	}
+
+	@Override
+	public boolean ValidateLoginAndpassword(String loginName, String password) {
+		boolean valid = true;
+		if (loginName != null && !(loginName.isEmpty()) && loginName.length() >= 8 && loginName.length() <= 25) {
+			valid = true;
+
+		} else {
+			System.out.println("Invalid Login name");
+			valid = false;
+			return valid;
+		}
+		if (password != null && !(password.isEmpty()) && password.length() >= 8 && password.length() <= 20) {
+			valid = true;
+
+		} else {
+			System.out.println("Invalid password");
+			valid = false;
+			return valid;
+
+		}
+		if (valid) {
+			boolean value = dao.findLoginAndPassword(loginName, password);
+			System.out.println("login name is matching :" + value);
+
+		}
+		return false;
+
+	}
+
+	@Override
+	public void validateAndChangePassword(String email, String newPassword) {
+		boolean valid = true;
+		if (email != null && email.length() >= 8 && !(email.isEmpty()) && email.length() <= 30
+				&& ((email.endsWith(".com")) || email.endsWith(".in")) || email.endsWith(".gov")
+				|| email.endsWith(".org")) {
+			valid = true;
+		}
+
+		else {
+			System.out.println("Entered email is wrong");
+			valid = false;
+
+		}
+
+		if (valid) {
+			boolean val = dao.findByEmail(email);
+			if (val) {
+				System.out.println("valid email");
+				dao.updatePasswordByEmail(email, newPassword);
+			}
+
+			System.out.println("updated password  :" + val);
+		} else {
+			System.out.println("Invalid email :" + email);
+		}
+
 	}
 
 }

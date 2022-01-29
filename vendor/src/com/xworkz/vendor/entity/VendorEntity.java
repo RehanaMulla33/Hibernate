@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -20,6 +22,13 @@ import lombok.ToString;
 
 @Entity
 @Table(name = "vendor_entity")
+
+@NamedQueries({
+		@NamedQuery(name = "findLoginAndPassword", query = "select vendor from VendorEntity as vendor where vendor.loginName=:ln and vendor.password=:pswd"),
+		@NamedQuery(name = "findByEmail", query = "select vendor from VendorEntity as vendor where vendor.email=:email"),
+		@NamedQuery(name = "updatePasswordByEmail", query = "update VendorEntity  set password= :pass where email= :em")
+
+})
 
 public class VendorEntity {
 	@Id
